@@ -3,10 +3,14 @@ Standard Algorithms (Quick revision)
 
 
 --->CA-1 GEN-331
-1.Introduction
-2.Architecture Of Model
-3.History of Idea
-4.Survey of minimum(25 People)
+
+1. Introduction to the topic
+
+2. Survey questions
+
+3. Responses received after survey
+
+4. History of the inputs (ideas) shared in the class
 
 Last date to Submit - 5th march
  
