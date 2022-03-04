@@ -1,0 +1,198 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define lli long long int
+#define llu unsigned long long int
+#define ld long double
+#define nl "\n"
+#define fastinput ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+//----------------------------------------------------------------///2
+class Research {
+public:
+    int binarySearch(vector<int>&nums,int k) {
+        cout<<"||----------------------------------------------------------------------------||"<<nl;
+        int l = 0;
+        int h = nums.size()-1;
+        while(l<=h) {
+            int mid = l + (h-l)/2;
+            cout<<"   Start Index: "<<l<<"   ||End Index: "<<h<<"   ||Mid Index: "<<mid<<nl;
+            if(nums[mid] == k) {
+                return mid;
+            }
+            else if(nums[mid] > k) {
+                h = mid - 1;
+            }
+            else {
+                l = mid + 1;
+            }
+        }
+        return -1;
+    }
+    void firstPage() {
+        cout<<"\n\n                                                                                 --: Welcome :---"<<nl;
+        cout<<"\n\n\n                                                                      --: Standard Algorithms for PEP :---"<<nl<<nl;
+        cout<<"Choose Topic that You want to revised: :Page->(1)"<<nl;
+        cout<<"                 1-:-> Number Theory   "<<nl;
+        cout<<"                 2-:-> Searching  "<<nl;
+        cout<<"                 3-:-> Sorting  "<<nl;
+        cout<<"                 4-:-> Tree  "<<nl; 
+        cout<<"                 5-:-> Graph  "<<nl;
+        cout<<"                 6-:-> Dynamic Prohramming  "<<nl;
+        cout<<"                 7-:-> PEP Stadard  Algorithms"<<nl<<nl;
+        cout<<"Enter The Index Of Topic: ";
+        int page1; cin>>page1;
+        switch(page1) {
+            case 1: {
+                cout<<"Incomplete Data";
+                break;
+            }
+            case 2: {
+                cout<<"\n\nStandard Searching Algorithms: "<<nl;
+                cout<<"1-:-> Linear Search"<<nl;
+                cout<<"2-:-> Binary Search"<<nl;
+                cout<<"3-:-> Jump Search"<<nl;
+                cout<<"4-:-> Interpolation Search"<<nl;
+                cout<<"5-:-> Exponential Search"<<nl<<nl;
+                cout<<"Select The Algorithms Index: ";
+                int page2; cin>>page2;
+                switch(page2) {
+                    case 1: {
+                        cout<<"Comming Soon !!";
+                        break;
+                    }
+                    case 2: {
+                        cout<<"\n--:Binary Search:--"<<nl<<nl;
+                        cout<<"1:-> About"<<nl;
+                        cout<<"2:-> Code"<<nl;
+                        cout<<"3:-> Working"<<nl;
+                        cout<<"4:-> Question"<<nl;
+                        cout<<"5:-> Video Solution"<<nl<<nl;
+                        cout<<"Select Your Query: ";
+                        int page3; cin>>page3;
+                        switch(page3) {
+                            case 1: {
+                                cout<<"About:-"<<nl<<nl;
+                                cout<<"\nBinary Search is a searching algorithm used in a sorted array by repeatedly dividing the search\n"; 
+                                cout<<"interval  half The idea of binary search is to use the information that the array is sorted and\n";
+                                cout<<"reduce the time."<<nl;
+                                cout<<"Complexity: O(Log n)"<<nl;
+                                break;
+                            }
+                            case 2: {
+                                cout<<"Code:- "<<nl<<nl;
+                                cout<<"int binarySearch(vector<int>&nums,int k) {  "<<nl;
+                                cout<<"    int l = 0;"<<nl;
+                                cout<<"    int h = nums.size()-1;"<<nl;
+                                cout<<"    while(l<=h) { "<<nl;
+                                cout<<"         int mid = l + (h-l)/2;"<<nl;
+                                cout<<"         if(nums[mid] == k) {"<<nl;
+                                cout<<"             return mid;"<<nl;
+                                cout<<"         }"<<nl;
+                                cout<<"         else if(nums[mid] > k) {"<<nl;
+                                cout<<"             h = mid - 1;"<<nl;
+                                cout<<"        }"<<nl;
+                                cout<<"        else {"<<nl;
+                                cout<<"            l = mid + 1;"<<nl;
+                                cout<<"        }"<<nl;
+                                cout<<"    }"<<nl;
+                                cout<<"    return -1;"<<nl;
+                                cout<<"}"<<nl;
+                                break;
+                            }
+                            case 3: {
+                                cout<<"\nWorking:-"<<nl<<nl;
+                                cout<<"Array: { 3,9,10,20,25,27,30,40,50,55,60,70,80,81,90 }"<<nl;
+                                cout<<"Search Value: "<<"27"<<nl<<nl;
+
+                                cout<<"Step: 1"<<nl;
+                                cout<<"Start Index: 0   ||End Index: 14   ||Mid Index: 7"<<nl;
+                                cout<<"Step: 2"<<nl;
+                                cout<<"Start Index: 0   ||End Index: 6   ||Mid Index: 3"<<nl;
+                                cout<<"Step: 3"<<nl;
+                                cout<<"Start Index: 4   ||End Index: 6   ||Mid Index: 5"<<nl;
+                                cout<<"Search Index: 5"<<nl<<nl;
+                                
+                                cout<<"You want to run your code: ";
+                                bool check; cin>>check;
+                                
+                                if(true) {
+                                    cout<<"\nCustom Input: "<<nl;
+                                    bool flag;
+                                    do {
+                                        cout<<"Enter the Size of Array: ";
+                                        int n; cin>>n;
+                                        cout<<nl;
+                                        vector<int>arr(n);
+                                        for(int i=0;i<n;i++) {
+                                            cout<<"Enter the "<<i+1<<" Value: ";
+                                            cin>>arr[i];
+                                            cout<<nl;
+                                        }
+                                        cout<<"Enter the Search Value: ";
+                                        int target; cin>>target;
+                                        int ans=binarySearch(arr,target);
+                                        cout<<"   Ans: "<<ans<<nl;
+                                        cout<<"||----------------------------------------------------------------------------||"<<nl;
+                                        cout<<"You want want to continue then press 1: ";
+                                        cin>>flag;
+                                    } while(flag==true);
+                                }
+                                else {
+                                    return;
+                                }
+
+                                break;
+                            }
+                            case 4: {
+                                cout<<"Question:-"<<nl<<nl;
+                                cout<<"Q:->1--:Split Array Largest Sum"<<nl;
+                                cout<<"Q:->2--:Minimize Max Distance to Gas Station"<<nl;
+                                cout<<"Q:->3--:Koko Eating Bananas"<<nl;
+                                cout<<"Q:->4--:Capacity To Ship Packages Within D Days"<<nl;
+                                cout<<"Q:->5--:Divide Chocolate"<<nl;
+                                cout<<"Q:->6--:Aggressive Cows"<<nl;
+                                cout<<"Q:->7--:Minimum Number of Days to Make m Bouquets"<<nl;
+                                cout<<"Q:->8--:Magnetic Force Between Two Balls"<<nl;
+                                cout<<"Q:->9--:Allocate minimum number of pages"<<nl;
+                                break;
+                            }
+                            case 5: {
+                                cout<<"Video Solution: "<<nl<<nl;
+                                cout<<"https://youtube.com/playlist?list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2"<<nl;
+                                cout<<"https://youtu.be/gYmWHvRHu-s"<<nl;
+                                cout<<"https://youtu.be/Sp2sRLcLND0"<<nl;
+                                break;
+                            }
+                            default: {
+                                break;
+                            }
+                        }
+
+                        break;
+                    }
+                    case 3: {
+                        cout<<"Comming Soon !!";
+                        break;
+                    }
+                    default: {
+                        break;   
+                    }
+                }
+                break;
+            }
+            case 3: {
+                cout<<"Comming Soon !!";
+                break; 
+            }
+            default: {
+                cout<<"Thank you For Using Our Notes:- "<<nl;
+                cout<<"                               See You Again !!!"<<nl;
+            }
+        }
+    }
+};
+int main(){
+    Research *p=new Research();
+    p->firstPage();
+    cout<<nl<<nl<<nl;
+    return 0;
+}
