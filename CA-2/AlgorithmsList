@@ -1,0 +1,60 @@
+Graph
+	BFS and DFS Traversal
+	Topological Sort
+	Detect Cycle in Directed Graph 
+	Detect Cycle in Undirected Graph 
+	Shortest Path in DAG
+	Kosarajus Algorithms
+	Dijkstra Algorithms
+	Prims Algorithms
+	Kruskal Algorithms
+	BellmanFord Algorithms
+	FloydWarshall Algorithms 
+	isBipartite Graph
+	Articulation Points in Graph
+	Bridge in Graph
+	Tarjan’s Algorithms
+	Ford Fulkerson Algorithms
+
+Dynamic Programming
+	Coin Change
+	Frog Jump
+	Frog Jump with Kth Distance
+	Buy and Sell
+	Unique Path Sum - I
+	Unique Path Sum - II
+	Minimum Path Sum
+	Cherry Pickup
+	Longest Common Subsequence
+	Longest Increasing Subsequence
+	Longest Palindromic Subsequence
+	House Robber
+	Subset Sum Equal to Target
+	Partition a Set into two Subsets Absolute Difference
+	Counts Subset with K Sum
+	Word Break Problem
+	Egg Dropping Puzzle
+	Rod Cutting
+	Wildcard Matching
+
+Tree  
+	Preorder, Inorder, Postorder Traversal (DFS)
+	Levelorder Traversal (BFS) 
+	Zig Zag Traversal
+	Boundary Traversal 
+	Morris Traversal
+	Lowest Common Ancestor
+	Catalan Number
+
+General
+	Josephus Using Recursion
+	Generate Parentheses
+	Tower of Hanoi
+	Trapping Rainwater
+	Job Sequencing
+	N-Queen
+	Rat in a Maze
+	Sudoku Solver
+	Word Search
+	Boyer-Moore
+	Floyd's Tortoise and Hare (Cycle Detection)
