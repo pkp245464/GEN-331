@@ -1,0 +1,66 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define lli long long int
+#define llu unsigned long long int
+#define ld long double
+#define nl "\n"
+#define fastinput ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+//---------------------------------------------------------------///
+class Solution {
+public:
+	void thirdPage() {
+		cout<<"Welcome To Third Pages"<<nl;
+	}
+	void secondPage() {
+		cout<<"Welcome To Second Pages"<<nl;
+	}
+	void firstPage() {
+		cout<<"* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ***"<<nl;
+		cout<<"* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ***"<<nl;
+		cout<<"* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"***                                                                                                                                           ***"<<nl;
+		cout<<"* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ***"<<nl;
+		cout<<"* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ***"<<nl;
+		cout<<"* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ***"<<nl;
+		cout<<"Press Any Key For Continue ";
+		string a; getline(cin,a);
+		if(a.size() >= 1) {
+			secondPage();
+		}
+	}
+};
+int main(){
+	Solution *p = new Solution();
+	p->firstPage();
+	return 0;
+}
